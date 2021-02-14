@@ -1,0 +1,156 @@
+@font-face
+{
+    font-family: 'BallparkWeiner';
+    src: url('/home/louiza/Bureau/HTML/polices/ballpark.eot');
+    src: url('/home/louiza/Bureau/HTML/polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.woff') format('woff'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.ttf') format('truetype'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.svg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Dayrom';
+    src: url('/home/louiza/Bureau/HTML/polices/ballpark.eot');
+    src: url('/home/louiza/Bureau/HTML/polices/ballpark.eot?#iefix') format('embedded-opentype'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.woff') format('woff'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.ttf') format('truetype'),
+         url('/home/louiza/Bureau/HTML/polices/ballpark.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  padding: 12%;
+  background: url("/home/louiza/Bureau/HTML/images/fond_jaune.png");
+}
+span {
+  font-family: BallparkWeiner, arial;
+  font-size: 35px
+}
+header{
+	position: relative;
+  border-radius: 15px;
+  padding: 5px;
+  height: 100px;
+	border: 3px solid red;
+}
+nav {
+height: 40px;
+width: 350px;
+padding: 5px;
+border-radius: 10px;
+border: 3px solid blue;
+margin-right: 15px
+float: right;
+}
+main {
+	position: relative;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background: url('/home/louiza/Bureau/HTML/images/sanfrancisco.jpg') no-repeat;
+  border-radius: 15px;
+  height: 220px;
+	border: 3px solid orange;
+}
+.bouton_rouge
+{
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('/home/louiza/Bureau/HTML/images/fond_degraderouge.png') repeat-x;
+    border: 1px solid darkred;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+  }
+.Main {
+  background-color: rgba(24,24,24,0.8);
+  width: 99.5%;
+  height: 33px;
+  position: absolute;
+  bottom: 0;
+  padding-top: 15px;
+  padding-left: 4px;
+}
+input {
+  height: 20px;
+  width: 90px;
+  background-color: darkred;
+  border-radius: 5px;
+  float: right;
+}
+section {
+	position: relative;
+  border-radius: 15px;
+  height: 500px;
+	border: 3px solid green;
+}
+article {
+	border: 3px solid mediumvioletred;
+	height: 480px;
+  width: 630px;
+  margin: 3px 3px;
+  padding: 3px;
+  border-radius: 15px;
+  float: right;
+}
+aside {
+	border: 3px solid hotpink;
+	height: 400px;
+  width: 280px;
+  margin: 3px 3px;
+  padding-left: 3px;
+  background-color: dimgray;
+  border-radius: 15px;
+  float: right;
+}
+footer {
+	border: 3px solid navy;
+	height: 200px;
+  border-radius: 15px;
+}
+#one {
+  border: 3px solid black !important;
+  width: 300px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+#two {
+  border: 3px solid black !important;
+  width: 300px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#three {
+  border: 3px solid black !important;
+  float: right;
+  width: 300px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: monospace;
+}
+#gauche {
+  float: left;
+  width: 20%;
+}
+#droite {
+  overflow: auto;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
